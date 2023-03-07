@@ -160,7 +160,7 @@ const SideBar = () => {
                     <path d="M16 11h6m-3 -3v6"></path>
                   </svg>
                 }
-                title="Subscriptions"
+                title="Inscrições"
               />
             </div>
           </div>
@@ -186,7 +186,7 @@ const SideBar = () => {
                   <path d="M17 17m-3 0a3 3 0 1 0 6 0a3 3 0 1 0 -6 0"></path>
                 </svg>
               }
-              title="Library"
+              title="Livraria"
             />
             <SideBarItem
               icon={
@@ -207,7 +207,7 @@ const SideBar = () => {
                   <path d="M3.05 11a9 9 0 1 1 .5 4m-.5 5v-5h5"></path>
                 </svg>
               }
-              title="History"
+              title="Historia"
             />
             <SideBarItem
               icon={
@@ -229,7 +229,7 @@ const SideBar = () => {
                   <path d="M18.42 15.61a2.1 2.1 0 0 1 2.97 2.97l-3.39 3.42h-3v-3l3.42 -3.39z"></path>
                 </svg>
               }
-              title="Watch Later"
+              title="Assistir depois"
             />
             <SideBarItem
               icon={
@@ -249,7 +249,7 @@ const SideBar = () => {
                   <path d="M19.5 12.572l-7.5 7.428l-7.5 -7.428a5 5 0 1 1 7.5 -6.566a5 5 0 1 1 7.5 6.572"></path>
                 </svg>
               }
-              title="Liked Videos"
+              title="Videos Curtidos"
             />
             <SideBarItem
               icon={
@@ -270,7 +270,7 @@ const SideBar = () => {
                   <path d="M3 6m0 2a2 2 0 0 1 2 -2h8a2 2 0 0 1 2 2v8a2 2 0 0 1 -2 2h-8a2 2 0 0 1 -2 -2z"></path>
                 </svg>
               }
-              title="Your Videos"
+              title="Meus videos"
             />
           </div>
           <SidebarExploreSection />
@@ -301,7 +301,7 @@ const SideBar = () => {
                   <path d="M19 18l1 0"></path>
                 </svg>
               }
-              title="Settings"
+              title="Configurações"
             />
             <SideBarItem
               icon={
@@ -345,7 +345,7 @@ const SideBar = () => {
                   <path d="M12 13.5a1.5 1.5 0 0 1 1 -1.5a2.6 2.6 0 1 0 -3 -4"></path>
                 </svg>
               }
-              title="Help"
+              title="Ajuda"
             />
             <SideBarItem
               icon={
@@ -366,7 +366,7 @@ const SideBar = () => {
                   <path d="M3 7l9 6l9 -6"></path>
                 </svg>
               }
-              title="Send Feedback"
+              title="Enviar Feedback"
             />
           </div>
           <div className="footer mb-32  border-t pt-6">
