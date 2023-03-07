@@ -73,7 +73,7 @@ const VideoDetails = () => {
             // url={data.adaptiveFormats && data.adaptiveFormats[data.adaptiveFormats.length - 10].url}
             url={data.formatStreams && data.formatStreams[2].url}
             // url={data.formatStreams && data.formatStreams[1].url}
-            // url="https://invidious.sethforprivacy.com/embed/hFGmHNcYWeU"
+             url="https://invidious.sethforprivacy.com/embed/hFGmHNcYWeU"
             
             //  source={data.dashUrl}
           /> */}
