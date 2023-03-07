@@ -25,7 +25,7 @@ const SidebarExploreSection = () => {
             <path d="M18 5.3a9 9 0 0 0 0 13.4"></path>
          </svg>
           }
-          title="Sports"
+          title="Esportes"
         />
         <SideBarExploreItem
           icon={
@@ -37,7 +37,7 @@ const SidebarExploreSection = () => {
             <path d="M9 8l10 0"></path>
          </svg>
           }
-          title="Music"
+          title="Musica"
         />
         <SideBarExploreItem
           icon={
@@ -53,7 +53,7 @@ const SidebarExploreSection = () => {
             <path d="M16 16l4 0"></path>
          </svg>
           }
-          title="Movies"
+          title="Filmes"
         />
         <SideBarExploreItem
           icon={
@@ -66,7 +66,7 @@ const SidebarExploreSection = () => {
             <path d="M14 10h2"></path>
          </svg>
           }
-          title="Gaming"
+          title="Games"
         />
         <SideBarExploreItem
           icon={
@@ -109,7 +109,7 @@ const SidebarExploreSection = () => {
               <path d="M8 16l4 0"></path>
             </svg>
           }
-          title="News"
+          title="Noticias"
         />
         <SideBarExploreItem
           icon={
