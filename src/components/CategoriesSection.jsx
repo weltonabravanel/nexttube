@@ -12,7 +12,7 @@ const CategoriesSection = () => {
      <Categories title="Games" id="gaming" handleClick="" />
     <Categories title="Esportes" id="sports" handleClick="" />
     <Categories title="Filmes" id="movies" handleClick="" />
-    <Categories title="Fashion" id="26" handleClick="" />
+    <Categories title="Estilo" id="26" handleClick="" />
     {/* <Categories title="Comedy" id="23" handleClick="" /> */}
     {/* <Categories title="DOTA" id="20" handleClick="" /> */}
   </div>
