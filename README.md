@@ -4,7 +4,7 @@
 
 This project is a YouTube alternative frontend built with ReactJS, modern UI, and adblock with privacy in mind. The aim of this project is to provide users with a more private and secure experience when watching online videos.
 
-Check This Here : [NextTube Web](https://nainishnexttube.vercel.app)
+Check This Here : [NextTube Web](https://youtubeplay.vercel.app)
 
 ## Features
 
