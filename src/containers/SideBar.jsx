@@ -207,7 +207,7 @@ const SideBar = () => {
                   <path d="M3.05 11a9 9 0 1 1 .5 4m-.5 5v-5h5"></path>
                 </svg>
               }
-              title="Historia"
+              title="História"
             />
             <SideBarItem
               icon={
@@ -249,7 +249,7 @@ const SideBar = () => {
                   <path d="M19.5 12.572l-7.5 7.428l-7.5 -7.428a5 5 0 1 1 7.5 -6.566a5 5 0 1 1 7.5 6.572"></path>
                 </svg>
               }
-              title="Videos Curtidos"
+              title="Vídeos Curtidos"
             />
             <SideBarItem
               icon={
@@ -270,7 +270,7 @@ const SideBar = () => {
                   <path d="M3 6m0 2a2 2 0 0 1 2 -2h8a2 2 0 0 1 2 2v8a2 2 0 0 1 -2 2h-8a2 2 0 0 1 -2 -2z"></path>
                 </svg>
               }
-              title="Meus videos"
+              title="Meus vídeos"
             />
           </div>
           <SidebarExploreSection />
@@ -323,7 +323,7 @@ const SideBar = () => {
                   <path d="M12 14l0 .01"></path>
                 </svg>
               }
-              title="Report History"
+              title="Histórico de relatórios"
             />
             <SideBarItem
               icon={
