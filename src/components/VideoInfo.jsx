@@ -63,7 +63,7 @@ const VideoInfo = ({
           </div>
             {/* channel details end */}
           <div className=" cursor-pointer hover:opacity-90 bg-red-500 p-2 px-8 rounded-full center">
-            <h3 className="font-medium text-gray-300">Subscribe</h3>
+            <h3 className="font-medium text-gray-300">Inscreva-se</h3>
           </div>
         </div>
         {/* descrpiton start */}
