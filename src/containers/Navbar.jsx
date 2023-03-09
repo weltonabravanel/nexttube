@@ -90,7 +90,7 @@ const Navbar = () => {
               ></path>
             </svg>
             <div className="ml-5">
-              <div className="rounded-full bg-gray-200  flex items-center justify-center  aspect-square h-7 w-7 hover:opacity-60 duration-300 text-white"><a className="font-semibold  text-gray-900 text-xs" href="http://youtubeplay.com.br" target="_blank">NR</a></div>
+              <div className="rounded-full bg-gray-200  flex items-center justify-center  aspect-square h-7 w-7 hover:opacity-60 duration-300 text-white"><a className="font-semibold  text-gray-900 text-xs" href="http://youtubeplay.com.br" target="_blank">WE</a></div>
             </div>
           </div>
         
