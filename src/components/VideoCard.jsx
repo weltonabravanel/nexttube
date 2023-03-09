@@ -78,9 +78,6 @@ const Video = ({ videos, moreDetails, channelDetails }) => {
 
 
 
-
-______________________________________________________________________________________________________________________________________________________________________
-
 import React from "react";
 import { Link, useNavigate } from "react-router-dom";
 import checkicon from "../assets/check.svg";
