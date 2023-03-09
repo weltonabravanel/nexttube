@@ -370,8 +370,8 @@ const SideBar = () => {
             />
           </div>
           <div className="footer mb-32  border-t pt-6">
-            <h2>Made with Love by Nainish</h2>
-            <h2>NEXTTUBE</h2>
+            <h2>Desenvolvido Por Youtube Play</h2>
+            <h2>YOUTUBE PLAY</h2>
           </div>
         </div>
       )}
