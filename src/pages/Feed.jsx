@@ -12,7 +12,7 @@ const Feed = () => {
 
 
 useEffect(()=>{
- api(`trending?maxResults=10`).then((response)=>setData(response))
+ api(`trending?maxResults=50`).then((response)=>setData(response))
 },[])
 console.log(data)
    
