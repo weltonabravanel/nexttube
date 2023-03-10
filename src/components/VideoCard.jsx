@@ -1,31 +1,3 @@
-import React from 'react'
-import { AiFillCheckCircle } from 'react-icons/ai'
-import { Link } from 'react-router-dom'
-import Loader from './Loader'
-
-const VideoCard = ({videoDetails}) => {
-  if(!videoDetails) return <Loader/>
-  
-
-  return (
-    <div className="videoCard shadow-lg">
-    {/* card media is here  */}
-  <Link to={`/video/${videoDetails?.id?.videoId}`}><figure><img src={videoDetails?.snippet?.thumbnails?.medium?.url}  alt={videoDetails?.snippet?.channelTitle} className='w-100' /></figure></Link>
-    
-     {/* card content  is here  */}
-    <Link to={`/video/${videoDetails?.id?.videoId}`}><p className='fw-bold video-title'>{videoDetails?.snippet?.title.slice(0,60)}</p></Link>
-    
-    <Link to={`/chenel/${videoDetails?.snippet?.channelId}`}>
-    <span className='chenel-title'>{videoDetails?.snippet?.channelTitle}</span> 
-    <AiFillCheckCircle color='gray' size={15} className="ms-1"/>
-    </Link>
-
-    </div>
-  )
-}
-
-export default VideoCard
-
 import React from "react";
 import { Link, useNavigate } from "react-router-dom";
 import checkicon from "../assets/check.svg";
@@ -49,7 +21,7 @@ const VideoCard = ({
   };
 
   return (
-    <div className="w-full xl:w-1/4 lg:w-1/4 md:w-1/3 sm:w-1/2 sm:p-2 lg:p-3 cursor-pointer py-2 md:py-2">
+    <div className="w-full xl:w-1/4 lg:w-1/4 min-[700px]:w-1/3 md:w-1/2 sm:w-1/2 sm:p-2 lg:p-3 cursor-pointer py-2 md:py-2">
       {/* <Link to="/video/:id"> */}
       <div
         className="wrapper sm:rounded-lg overflow-hidden hover:opacity-75
@@ -104,6 +76,5 @@ const VideoCard = ({
 };
 
 export default VideoCard;
-
 
 
